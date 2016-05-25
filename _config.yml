@@ -11,7 +11,7 @@ gems:
 #baseurl: "/projectname"
 url: ""
 enforce_ssl: ""
-baseurl: ""
+baseurl: "/jekyllBasic"
 
 # Title of website
 title: Project Name
