@@ -1,2 +1,5 @@
 # jekyllBasic
-A simple, minimal site built using Jekyll
+
+A simple, minimal, responsive theme built using Jekyll.
+
+You can use this template/theme to build your new or existing site.
