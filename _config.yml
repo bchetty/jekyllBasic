@@ -9,7 +9,7 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: "http://piropay.github.io"
+url: "https://piropay.github.io"
 enforce_ssl: ""
 baseurl: "piropay.github.io"
 
@@ -30,18 +30,16 @@ avatar: "assets/img/favicon.ico"
 
 # List of links in the navigation bar
 nav-links:
-  Home: ""
   Features: "features"
   Connections: "connnections"  
   Pricing: "pricing" 
   Support: "support" 
-  Login: "login" 
   
 # --- Footer options --- #
 
 # If the values are empty, they are ignored 
 profile:
-  name: Piropay
+  name: Piropay.com
   email: hello@piropay.com
   facebook: your-fb-id
   github: your-github-id 
