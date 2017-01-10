@@ -2,7 +2,7 @@
 
 
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="hidden navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
@@ -28,7 +28,7 @@
   </div>
 </nav>
 	
-	<nav class="navbar navbar-fixed-top" role="navigation"> 
+<nav class="navbar navbar-fixed-top" role="navigation"> 
 		<div class="container-fluid"> 
 			<div class="navbar-header"> 
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
@@ -58,14 +58,14 @@
 			
 			<div class="collapse navbar-collapse" id="navbar"> 
 				<ul class="nav navbar-nav navbar-right"> 
-					<li class="navbarsmall full {% if first_segment == 'docs' %}active{% endif %}" href="{{ site.baseurl }}/features/">Product</a> </li> 
-					<li class="navbarsmall full"> <a href="https://dapulse.com/case-studies/">Case Studies</a> </li> 
+					<li class="navbarsmall full"> <a href="/features/"> Product</a> </li> 
+					<li class="navbarsmall full"> <a href="https://piropay.com/case-studies/">Case Studies</a> </li> 
 					<li class="full"> <a href="/pricing/">Pricing</a> </li> 
-					<li class="full navbarsmall"> <a href="https://dapulse.com/support/">Support</a> </li> 
-					<li class="login-box navbarsmall"><a class="login" href="https://auth.dapulse.com/login" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in navbar', 'From page: ' + window.location.pathname); }">Log in</a> <a class="signup signup-navbar-box" href="javascript:void(0)">Signup</a> </li> 
+					<li class="full navbarsmall"> <a href="https://piropay.com/support/">Support</a> </li> 
+					<li class="login-box navbarsmall"><a class="login" href="https://auth.piropay.com/login" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in navbar', 'From page: ' + window.location.pathname); }">Log in</a> <a class="signup signup-navbar-box" href="javascript:void(0)">Signup</a> </li> 
 				</ul> 
 		</div> 
 		</div> 
 		</nav>
 <div class="navbar-padding"></div> 
-<main role="main"> 
+
