@@ -60,11 +60,10 @@
 				<ul class="nav navbar-nav navbar-right"> 
 					{% for link in site.nav-links %}
 					<li class="navbarsmall full"> <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a> </li> 
-					<li class="navbarsmall full"> <a href="https://piropay.com/case-studies/">Case Studies</a> </li> 
-					<li class="full"> <a href="/pricing/">Pricing</a> </li> 
-					<li class="full navbarsmall"> <a href="https://piropay.com/support/">Support</a> </li> 
+					
+					  {% endfor %}
 					<li class="login-box navbarsmall"><a class="login" href="https://auth.piropay.com/login" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in navbar', 'From page: ' + window.location.pathname); }">Log in</a> <a class="signup signup-navbar-box" href="javascript:void(0)">Signup</a> </li> 
-        {% endfor %}
+  
 				</ul> 
 		</div> 
 		</div> 
