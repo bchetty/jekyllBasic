@@ -11,35 +11,38 @@ gems:
 #baseurl: "/projectname"
 url: ""
 enforce_ssl: ""
-baseurl: "/jekyllBasic"
+baseurl: "piropay.github.io"
 
 # Title of website
-title: Project Name
+title: PiroPay Ltd
 
 #Default keywords (used if no keywords are specified on a page basis)
-keywords: test1, test2, etc
+keywords: piropay, piro payments, global acquiring, iso partnerships, psp partnerships, merchant processsing, credit card processing, nerchant payment services, easy payments acceptance
 
 # Short description of your site
-desc: Sample Description
+desc: Simplified Payments Acceptance
 
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
+avatar: "assets/img/favicon.ico"
 
 # List of links in the navigation bar
 nav-links:
   Home: ""
-  About Me: "aboutme"
-  Contact: "contact"  
+  Features: "features"
+  Connections: "connnections"  
+  Pricing: "pricing" 
+  Support: "support" 
+  Login: "login" 
   
 # --- Footer options --- #
 
 # If the values are empty, they are ignored 
 profile:
-  name: Babji Chetty
-  email: Your-Email
+  name: Piropay
+  email: hello@piropay.com
   facebook: your-fb-id
   github: your-github-id 
   twitter: your-twitter-id
@@ -47,7 +50,7 @@ profile:
   stackoverflow: your-stackoverflow-id
 
 # To display link in the footer section
-pretty-url: "bchetty.com"
+pretty-url: "Piropay.com"
 
 # --- Misc --- #
 
@@ -90,7 +93,7 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Babji, Chetty
-creator-url: https://bchetty.com
+created-by: Richard, St Joseph
+creator-url: https://roweium.com
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-piropay
