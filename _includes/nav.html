@@ -38,7 +38,7 @@
 					<span class="icon-bar bottom"></span> 
 				</button> 
 				
-<a class="navbar-brand bc navbarsmall" href="https://piropay.com"> <span class="logo-img logo-img-small"> 
+<a class="navbar-brand bc navbarsmall" href="{{ site.url }}"> <span class="logo-img logo-img-small"> 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 852 204" style="enable-background:new 0 0 852 204;" xml:space="preserve"> 
 <defs> 
 	<style>
@@ -58,11 +58,13 @@
 			
 			<div class="collapse navbar-collapse" id="navbar"> 
 				<ul class="nav navbar-nav navbar-right"> 
-					<li class="navbarsmall full"> <a href="/features/"> Product</a> </li> 
+					{% for link in site.nav-links %}
+					<li class="navbarsmall full"> <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a> </li> 
 					<li class="navbarsmall full"> <a href="https://piropay.com/case-studies/">Case Studies</a> </li> 
 					<li class="full"> <a href="/pricing/">Pricing</a> </li> 
 					<li class="full navbarsmall"> <a href="https://piropay.com/support/">Support</a> </li> 
 					<li class="login-box navbarsmall"><a class="login" href="https://auth.piropay.com/login" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in navbar', 'From page: ' + window.location.pathname); }">Log in</a> <a class="signup signup-navbar-box" href="javascript:void(0)">Signup</a> </li> 
+        {% endfor %}
 				</ul> 
 		</div> 
 		</div> 
