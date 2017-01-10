@@ -3,12 +3,13 @@
 
 {% include head.html %}
 
-<body>
+<body data-page-name="index"> 
+    
     {% include nav.html %}
 
-    <div class="container">
+    <main>
         {{ content }}
-    </div>
+    </main>
 
     {% include footer.html %} 
     {% include scripts.html %}
