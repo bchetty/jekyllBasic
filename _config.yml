@@ -92,3 +92,5 @@ exclude:
 
 created-by: Babji, Chetty
 creator-url: https://bchetty.com
+
+theme: jekyll-theme-architect
